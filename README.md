@@ -16,7 +16,7 @@ If you only want to read the notebook without downloading anything, here's a lin
 <a id='s1'></a>
 ## 1. Dataset Description
 ### Data Source:
-The data is sourced from [CriteoLabs](https://labs.criteo.com/), a multinational corporation in the digital marketing industry, specializing in algorithmic approaches to determine what to show users. In an [old kaggle competition](https://www.kaggle.com/c/criteo-display-ad-challenge), 7 days worth of Criteo's ad data was released. From here on out, this will be referred to as "the Criteo data" in this notebook and it's contained in the  'train_subsampled' file. 
+The data is sourced from [CriteoLabs](https://labs.criteo.com/), a multinational corporation in the digital marketing industry, specializing in algorithmic approaches to determine what to show users. In an [old kaggle competition](https://www.kaggle.com/c/criteo-display-ad-challenge), 7 days worth of Criteo's ad data was released. From here on out, this will be referred to as "the Criteo data" in the notebook. The Criteo data is contained in the  'train_subsampled' file. 
 
 ### Data Fields
 
