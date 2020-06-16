@@ -1,15 +1,15 @@
 # CTR-Prediction-with-Stochastic-Gradient-Descent
 
 ## Why do this?
-The goal of this project is to predict whether a dataset of advertisements will be clicked. In solving this problem, I use a stochastic gradient descent algorithm called Pegasos, which is commonly used for [click-through rate (CTR)](https://en.wikipedia.org/wiki/Click-through_rate#:~:text=Click%2Dthrough%20rate%20(CTR)) prediction.
+The goal of this project is to predict whether a dataset of advertisements will be clicked or not. In solving this problem, I use a stochastic gradient descent algorithm called Pegasos, which is commonly used for [click-through rate (CTR)](https://en.wikipedia.org/wiki/Click-through_rate#:~:text=Click%2Dthrough%20rate%20(CTR)) predictions.
 
 
 If you only want to read the notebook without downloading anything, here's a link to nbviewer: [CTR-Prediction-with-Stochastic-Gradient-Descent.ipynb](https://nbviewer.jupyter.org/github/Unique-Divine/CTR-Prediction-with-Stochastic-Gradient-Descent/blob/master/CTR%20Prediction%20with%20Stochastic%20Gradient%20Descent.ipynb)
 
 # Contents:
 1. [Dataset Description](#s1)
-2. [Demo / Usage Instructions](#s2)
-3. [Jupyter Notebook Contents](#s3)
+2. [Jupyter Notebook Contents](#s2)
+3. [Demo / Usage Instructions](#s3)
 
 ----
 
@@ -30,16 +30,7 @@ The semantics of the features remain undisclosed.
 ----
 
 <a id='s2'></a>
-## 2. Demo / Usage Instructions:
-All required libraries can installed with pip using requirements.txt file. Simply download the file and use
-```
-pip install -r requirements.txt
-```
-
-----
-
-<a id='s3'></a>
-## 3. Jupyter Notebook Contents: ##
+## 2. Jupyter Notebook Contents: ##
 1. Dataset Description
 2. Preprocessing  
 3. A Generic Classifier Object
@@ -49,4 +40,14 @@ pip install -r requirements.txt
 7. Implementing the Pegasos Algorithm
 8. Pegasos on Criteo CTR Prediction Data
 9. TODO
+
+----
+
+<a id='s3'></a>
+## 3. Demo / Usage Instructions:
+All required libraries can installed with pip using requirements.txt file. Simply download the file and use
+```
+pip install -r requirements.txt
+```
+
 
