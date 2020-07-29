@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 class data_transform:
     """A class similar to sklearn.utils.Bunch that I made for convenience.
 
@@ -44,7 +48,7 @@ class data_transform:
             [type]: [description]
         """
         if self.target_names != None:
-            cols = list(data.columns)
+            cols = list(self.df.columns)
             for i in self.target_names:
                 cols.remove(i)
             features = cols 
@@ -61,7 +65,7 @@ class data_transform:
             [type]: [description]
         """
         if self.feature_names != None:
-            cols = list(data.columns)
+            cols = list(self.df.columns)
             for i in self.feature_names:
                 cols.remove(i)
             self.targets = cols
