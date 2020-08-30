@@ -50,4 +50,6 @@ All required libraries can installed with pip using requirements.txt file. Simpl
 pip install -r requirements.txt
 ```
 
-
+### TODO
+- Figure out how to get Travis CI to run automatic tests on the notebooks. If this is too time consuming, try converting everything to python scripts so that Travis CI can work that way.
+- Compare Pegasos with other benchmark models, particularly ensemble methods like XGBoost and random forests. 
