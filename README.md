@@ -1,24 +1,29 @@
 # CTR-Prediction-with-Stochastic-Gradient-Descent
 
+Predicting whether advertisements will be clicked or not with Pegasos, a stochastic gradient descent algorithm, and other ML algorithms
+
 ## Why do this?
 The goal of this project is to predict whether a dataset of advertisements will be clicked or not. In solving this problem, I use a stochastic gradient descent algorithm called Pegasos, which is commonly used for [click-through rate (CTR)](https://en.wikipedia.org/wiki/Click-through_rate#:~:text=Click%2Dthrough%20rate%20(CTR)) predictions.
 
 
 If you only want to read the notebook without downloading anything, here's a link to nbviewer: [CTR-Prediction-with-Stochastic-Gradient-Descent.ipynb](https://nbviewer.jupyter.org/github/Unique-Divine/CTR-Prediction-with-Stochastic-Gradient-Descent/blob/master/CTR%20Prediction%20with%20Stochastic%20Gradient%20Descent.ipynb)
 
-# Contents:
-1. [Dataset Description](#s1)
-2. [Jupyter Notebook Contents](#s2)
-3. [Demo / Usage Instructions](#s3)
+# Contents       <!-- omit in toc --> 
+
+1. [Dataset Description](#dataset-description)
+2. [Jupyter Notebook Contents](#jupyter-notebook-contents)
+3. [Demo / Usage Instructions](#usage-instructions)
 
 ----
 
 <a id='s1'></a>
-## 1. Dataset Description
-### Data Source:
+## Dataset Description
+
+#### Data Source:
+
 The data is sourced from [CriteoLabs](https://labs.criteo.com/), a multinational corporation in the digital marketing industry, specializing in algorithmic approaches to determine what to show users. In an [old kaggle competition](https://www.kaggle.com/c/criteo-display-ad-challenge), 7 days worth of Criteo's ad data was released. From here on out, this will be referred to as "the Criteo data" in the notebook. The Criteo data is contained in the  'train_subsampled' file. 
 
-### Data Fields
+#### Data Fields
 
 - Label - Target variable that indicates if an ad was clicked (1) or not (0).
 - I1-I13 - A total of 13 columns of integer features (mostly count features).
@@ -30,7 +35,8 @@ The semantics of the features remain undisclosed.
 ----
 
 <a id='s2'></a>
-## 2. Jupyter Notebook Contents: ##
+## Jupyter Notebook Contents
+
 1. Dataset Description
 2. Preprocessing  
 3. A Generic Classifier Object
@@ -44,12 +50,10 @@ The semantics of the features remain undisclosed.
 ----
 
 <a id='s3'></a>
-## 3. Demo / Usage Instructions:
-All required libraries can installed with pip using requirements.txt file. Simply download the file and use
-```
-pip install -r requirements.txt
-```
+## Usage Instructions
+
+All required libraries can installed with pip. I would advise using installing miniconda or Anaconda instead to use `conda install -c conda-forge pandas`, for example.
 
 ### TODO
-- Figure out how to get Travis CI to run automatic tests on the notebooks. If this is too time consuming, try converting everything to python scripts so that Travis CI can work that way.
+
 - Compare Pegasos with other benchmark models, particularly ensemble methods like XGBoost and random forests. 
